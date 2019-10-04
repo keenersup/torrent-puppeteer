@@ -1,0 +1,16 @@
+{
+  "name": "torrent-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eval $(cat .env) node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.20.0",
+    "scp2": "^0.5.0"
+  }
+}
